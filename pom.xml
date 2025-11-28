@@ -298,7 +298,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.qswar.hc.HandicraftsApplication</mainClass>
+                            <mainClass>com.qswar.hc.ReMacApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

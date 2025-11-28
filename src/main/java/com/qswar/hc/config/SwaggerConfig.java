@@ -30,10 +30,10 @@ public class SwaggerConfig {
   @Trace
   private ApiInfo apiEndPointsInfo() {
     return new ApiInfoBuilder()
-        .title("QSWAR-HC ( क्यूस्वर/கியூஸ்வார்/قواسوار/ಕ್ಯೂಸ್ವಾರ್ ) APIs")
-        .description("QSwar-HC: Precision in engineering for excellent")
-        .contact(new Contact("Mrs. Nagina Patel", "www.qswar.com", "director@qswar.com"))
-        .license("QSwar Research & Technology Pvt. Ltd.")
+        .title("ReMAC APIs")
+        .description("ReMAC: For Maintaining Unique MAC Across the Vehicles")
+        .contact(new Contact("PD-EV TEAM", "royalenfield.com", "somteam@royalenfield.com"))
+        .license("ReMAC Team")
         .version("v1")
         .build();
   }
