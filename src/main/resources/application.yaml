@@ -1,0 +1,37 @@
+server:
+  port: 9091
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: handicrafts
+  datasource:
+    url: jdbc:mysql://localhost:3306/remac?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+      hibernate:
+        ddl-auto: validate
+      show-sql: true
+
+  session:
+    store-type: redis
+    redis:
+      host: localhost
+      port: 6379
+
+
+springdoc:
+  swagger-ui:
+    custom-logo:
+      url: /logo.png
+      alt: Your Company Name
+      # width: 100 # Ensure these are commented out if not used
+      # height: 20
+
+    favicon-config: # Must be indented correctly
+      urls: # Must be a list
+        - url: /favicon.ico
+          rel: icon
